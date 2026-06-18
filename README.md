@@ -69,19 +69,6 @@ rmpc-servicing-payload-concept/
     └── outreach-notes.md
 ```
 
-## Hosting on GitHub Pages
-
-This is a plain static site with no build step. To publish it:
-
-1. Create a public GitHub repository (suggested name: `rmpc-servicing-payload-concept`).
-2. Upload every file in this folder, keeping the folder structure intact.
-3. In the repository, go to **Settings → Pages**.
-4. Under **Build and deployment → Source**, choose **Deploy from a branch**.
-5. Set the branch to `main` and the folder to `/ (root)`, then **Save**.
-6. Wait a minute, then visit `https://<your-username>.github.io/rmpc-servicing-payload-concept/`.
-
-A full step-by-step guide for non-programmers is included in `DEPLOY-GUIDE.md`.
-
 ## Compensation Note
 
 This is an unpaid, volunteer team-forming opportunity. Participation does not guarantee selection, prize funding, reimbursement, employment, or future compensation. Any award distribution would be governed by a written team agreement established before submission or award acceptance.
