@@ -1,13 +1,14 @@
 # RMPC Robotic Servicing Payload Concept — CLOSED
 
-> ## Status: closed. No team assembled, no application submitted.
+> ## Status: closed. No team assembled in time; no application submitted.
 >
-> I attempted to form an independent team to apply to NASA TechLeap's Robotically Manipulated Payload
-> Challenge. **I was not able to put a team together in time to compete, and no Phase 1 application was
-> submitted.** The interest form is closed and this project is no longer recruiting.
+> I set out to form an independent team for NASA TechLeap's Robotically Manipulated Payload Challenge.
+> **I did not get a team together before the deadline, so no Phase 1 application was submitted.** The interest
+> form has closed and this project is no longer recruiting.
 >
-> The concept work is left published as a record. It is a concept study, not a flight design, and it was never
-> reviewed by a qualified engineer.
+> This was a deliberate reach — the first project I have taken on that could not be done alone — and it is
+> published here, outcome and all, as part of that record. The concept work is a concept study, not a flight
+> design, and it was never reviewed by a qualified engineer.
 
 **This is not an official NASA, TechLeap, Luminary Labs, or Fly Foundational Robots repository.** It was an independent effort.
 
@@ -28,17 +29,22 @@ Concept page: <https://dan-lee-odinson.github.io/rmpc-servicing-payload-concept/
 
 ---
 
-## Why it failed
+## What I took from it
 
-Worth writing down, because the failure is the useful part.
+This project was a step outward — an attempt to expand both my reach and the scale of what I could take on. It is worth being clear about why it was different from everything else I have built.
 
-**The concept was the easy part. Recruiting was the binding constraint, and I did not treat it as the critical path until it was too late.** An open call from an individual with no institutional backing, no funding, and no prior hardware track record is a weak offer to exactly the engineers a payload challenge needs — people with flight-hardware, mechanical, and environmental-test experience. Those were the roles that never filled, and they were the ones that mattered most. I could write the concept brief alone. I could not build the payload alone, and the schedule ran out.
+**Every other project in my portfolio, I could do alone.** The extension, the thermal model, the simulations — all of them are solo work, accelerated by AI. RMPC was the first thing I attempted that *could not* be done that way. A robotic servicing payload needs mechanical engineers, flight-hardware experience, environmental-test experience, fabrication. No amount of individual effort or AI leverage substitutes for people who have actually built and qualified hardware.
 
-**What I would do differently:**
+**So the real lesson is not about the payload. It is about the network.** I discovered that I had built a portfolio and a method, but not yet the professional relationships that let you convene a team on a deadline. Team formation is its own discipline, and it runs on a network you have to build *before* you need it — a lab, a makerspace, an AIAA section, colleagues who will vouch for you. I was recruiting strangers from a standing start, which is the hardest possible version of that problem, and I didn't leave enough runway for it.
 
-- **Start from an existing group** — a university lab, a makerspace, an AIAA section — rather than assembling strangers around a cold-start concept.
-- **Secure one credible hardware lead *before* announcing**, not after. The first yes is what makes the second yes possible.
-- **Back-plan the deadline from team formation**, not from the technical work. Recruiting was the schedule driver, and I planned as though the concept was.
+**Nobody pulls off a moonshot alone.** That is not a consolation; it is the actual finding, and it is the most useful thing this project produced. Apollo was 400,000 people. The entire reason I want to work in this industry is to be part of *the teams* that support these missions — and this is the project that taught me that building the team is the work, not the overhead around it.
+
+**What I'm changing:**
+
+- **Build the network before the next deadline, not during it** — AIAA section, IEEE, university labs, local makerspaces. Relationships first, project second.
+- **Start from an existing group** rather than assembling strangers around a cold-start concept.
+- **Secure one credible hardware lead before announcing.** The first yes is what makes the second yes possible.
+- **Back-plan from team formation**, not from the technical work. Recruiting was the schedule driver and I planned as though the concept was.
 
 ---
 
