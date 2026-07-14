@@ -1,65 +1,65 @@
-# RMPC Robotic Servicing Payload Concept
+# RMPC Robotic Servicing Payload Concept — CLOSED
 
-This repository supports an independent team-forming effort for a proposed application to NASA TechLeap's Robotically Manipulated Payload Challenge.
+> ## Status: closed. No team assembled, no application submitted.
+>
+> I attempted to form an independent team to apply to NASA TechLeap's Robotically Manipulated Payload
+> Challenge. **I was not able to put a team together in time to compete, and no Phase 1 application was
+> submitted.** The interest form is closed and this project is no longer recruiting.
+>
+> The concept work is left published as a record. It is a concept study, not a flight design, and it was never
+> reviewed by a qualified engineer.
 
-The current working concept is a compact robotic servicing validation payload designed to demonstrate repeatable manipulation tasks such as grapple/release, relocation, alignment verification, reinstallation, inspection support, and simple power/data validation.
+**This is not an official NASA, TechLeap, Luminary Labs, or Fly Foundational Robots repository.** It was an independent effort.
 
-> **This is not an official NASA, TechLeap, Luminary Labs, or Fly Foundational Robots repository.** It is an independent prospective team-forming effort. All official rules, eligibility, insurance, technical guidelines, and deadlines must be confirmed against the official challenge materials.
+---
 
-## Goals
+## What the concept was
 
-- Recruit a small multidisciplinary team
-- Develop a credible Phase 1 concept application
-- Document the project publicly as part of a space-industry transition portfolio
-- Build toward a low-complexity, testable robotic servicing payload concept
+A compact, ORU-style robotic servicing validation payload intended to demonstrate repeatable manipulation tasks in low Earth orbit: grapple/release, relocation, alignment verification, reinstallation, inspection support, and simple power/data validation.
 
-## Needed Skill Areas
+The concept brief, role breakdown, and requirements notes remain in [`docs/`](docs/):
 
-- Mechanical / aerospace engineering
-- Electrical / embedded systems
-- Robotics / controls / manipulation planning
-- CAD / mechanical design
-- CNC machining, welding, fabrication, or rapid prototyping
-- Space systems / payload integration
-- Thermal / power / mass budgeting
-- Spaceflight materials, launch vibration, thermal/vacuum, or environmental test experience
-- Payload operations / CONOPS / flight-test planning
-- Flight hardware / test planning experience
-- Faculty, advisor, or industry mentor support
+- [`docs/concept-brief.md`](docs/concept-brief.md)
+- [`docs/team-roles.md`](docs/team-roles.md)
+- [`docs/requirements-notes.md`](docs/requirements-notes.md)
+- [`docs/outreach-notes.md`](docs/outreach-notes.md)
 
-## Interest Form
+Concept page: <https://dan-lee-odinson.github.io/rmpc-servicing-payload-concept/>
 
-Interested contributors or advisors can complete the form here:
+---
 
-https://forms.gle/FzjG6L8gPRDjCkvA9
+## Why it failed
 
-## Key Dates
+Worth writing down, because the failure is the useful part.
 
-| Milestone | Date |
-| --- | --- |
-| Core team consideration (target) | July 10, 2026 |
-| RMPC registration deadline | July 29, 2026 |
-| Phase 1 application deadline | August 12, 2026 |
+**The concept was the easy part. Recruiting was the binding constraint, and I did not treat it as the critical path until it was too late.** An open call from an individual with no institutional backing, no funding, and no prior hardware track record is a weak offer to exactly the engineers a payload challenge needs — people with flight-hardware, mechanical, and environmental-test experience. Those were the roles that never filled, and they were the ones that mattered most. I could write the concept brief alone. I could not build the payload alone, and the schedule ran out.
 
-*Confirm all dates against the official challenge site.*
+**What I would do differently:**
 
-## Official Challenge Links
+- **Start from an existing group** — a university lab, a makerspace, an AIAA section — rather than assembling strangers around a cold-start concept.
+- **Secure one credible hardware lead *before* announcing**, not after. The first yes is what makes the second yes possible.
+- **Back-plan the deadline from team formation**, not from the technical work. Recruiting was the schedule driver, and I planned as though the concept was.
 
-- RMPC official site: https://rmpc.nasatechleap.org/
-- Technical guidelines: https://rmpc.nasatechleap.org/technical-guidelines/
-- Evaluation criteria: https://rmpc.nasatechleap.org/evaluation-criteria/
-- Rules, terms, and conditions: https://rmpc.nasatechleap.org/rules-terms-and-conditions/
-- Insurance guidelines: https://rmpc.nasatechleap.org/insurance-guidelines/
-- NASA TechLeap Prize information: https://www.nasa.gov/stmd-flight-opportunities/access-flight-tests/nasa-techleap-prize-information/
+---
 
-## Repository Contents
+## Official challenge links
+
+- RMPC official site: <https://rmpc.nasatechleap.org/>
+- Technical guidelines: <https://rmpc.nasatechleap.org/technical-guidelines/>
+- Evaluation criteria: <https://rmpc.nasatechleap.org/evaluation-criteria/>
+- Rules, terms, and conditions: <https://rmpc.nasatechleap.org/rules-terms-and-conditions/>
+- NASA TechLeap Prize information: <https://www.nasa.gov/stmd-flight-opportunities/access-flight-tests/nasa-techleap-prize-information/>
+
+---
+
+## Repository contents
 
 ```text
 rmpc-servicing-payload-concept/
-├── index.html          # The landing page
+├── index.html          # Concept page (closure notice + concept)
 ├── styles.css          # Page styling
 ├── README.md           # This file
-├── LICENSE             # MIT license
+├── LICENSE             # MIT
 ├── assets/
 │   └── concept-placeholder.png
 └── docs/
@@ -68,7 +68,3 @@ rmpc-servicing-payload-concept/
     ├── requirements-notes.md
     └── outreach-notes.md
 ```
-
-## Compensation Note
-
-This is an unpaid, volunteer team-forming opportunity. Participation does not guarantee selection, prize funding, reimbursement, employment, or future compensation. Any award distribution would be governed by a written team agreement established before submission or award acceptance.
